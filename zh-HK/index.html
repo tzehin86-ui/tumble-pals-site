@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>私隱政策 —— 跳跳小動物 (Tumble Pals)</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5a5a5a;
+  --link: #0b5fae;
+  --border: #e2e2e2;
+  --code-bg: #f2f2f2;
+  --table-head-bg: #f5f5f5;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --fg: #e8e8e8;
+    --muted: #a8a8a8;
+    --link: #7ab8ff;
+    --border: #333333;
+    --code-bg: #1e1e1e;
+    --table-head-bg: #1c1c1c;
+  }
+}
+* { box-sizing: border-box; }
+html, body { background: var(--bg); }
+body {
+  margin: 0;
+  padding: 0 16px 48px;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.langbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 16px 0 8px;
+  font-size: 0.95em;
+}
+.langbar a, .langbar span {
+  text-decoration: none;
+  color: var(--link);
+}
+.langbar span.current {
+  color: var(--muted);
+  font-weight: 600;
+}
+h1 {
+  font-size: 1.6em;
+  line-height: 1.3;
+  margin-top: 0.4em;
+}
+h2 {
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  border-top: 1px solid var(--border);
+  padding-top: 1em;
+}
+p, ul, ol, table { margin: 1em 0; }
+ul, ol { padding-left: 1.4em; }
+li { margin: 0.5em 0; }
+li > ol, li > ul { margin: 0.5em 0; }
+a { color: var(--link); }
+code {
+  background: var(--code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92em;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: var(--table-head-bg);
+}
+footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9em;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="langbar">
+<span class="current">繁體中文</span>
+<span>|</span>
+<a href="../index.html">English</a>
+</nav>
+<h1>私隱政策 —— 跳跳小動物 (Tumble Pals)</h1>
+<p>最後更新：2026 年 8 月 22 日</p>
+<p>多謝你遊玩《跳跳小動物》（下稱「本遊戲」）。我哋非常重視你嘅私隱。</p>
+<p><strong>一句總結，照直講：</strong> 我哋唔會問你姓名、電郵、電話或者位置，亦冇任何帳號。但我哋<strong>有</strong>：一個用喺連線功能嘅隨機裝置識別碼（第 1b 節）、一個存喺你部機用嚟答年齡問題嘅數字（第 2b 節），另外本遊戲用咗第三方服務（Google AdMob 出廣告、Google Firebase Analytics 做使用量分析），佢哋自己會收集有限資料。另外，連線去我哋伺服器嗰陣，伺服器會見到你嘅 IP 位址，我哋只用嚟防濫用（第 1c 節）。第 1、1a、1b、1c、2b、6 節逐項寫晒。</p>
+<h2>1. 我哋（開發者）收集咩資料</h2>
+<p><strong>冇任何直接識別到你身份嘅資料——但有一個持久識別碼。</strong> 兩邊都要睇，第二邊喺 COPPA 之下好緊要。</p>
+<p>本遊戲<strong>唔會</strong>收集：</p>
+<ul>
+<li>你嘅真實姓名、電郵、電話或位置；</li>
+<li>任何帳號或登入（根本冇）；</li>
+<li>任何關於你自己嘅自由文字——排行榜上嘅名係由遊戲喺一份固定字詞表入面抽出嚟。全遊戲得<strong>兩個</strong>打得字嘅框（四個字嘅房間碼、家長閘答案），第 4 節兩個都列咗。</li>
+</ul>
+<p>本遊戲<strong>會</strong>（而且只喺你用連線功能嗰陣）將一個<strong>隨機生成嘅持久裝置識別碼</strong>傳去我哋伺服器。喺 COPPA 之下，就算一個識別碼唔連住姓名，佢一樣算係「來自兒童嘅個人資料」，所以我哋喺第 1b 節完整列出，而唔係一句「我哋咩都唔收」。</p>
+<p>⚠️ 舊版本呢一節寫住「冇任何個人身份資料」，而第 1b 節同時描述緊傳送呢個識別碼——嗰個係自相矛盾，而家已經改正。</p>
+<p>呢度講嘅「連線功能」係指即時對戰<strong>同每日挑戰</strong>。要特別講清楚：<strong>淨係玩每日挑戰本身已經係一個連線功能</strong>——一鋪每日挑戰玩完，成績會<strong>自動</strong>交上去，你唔使打開個排行榜，亦冇一粒「上傳」掣要你撳。只有喺你從來冇玩過每日挑戰、亦從來冇打開即時對戰嘅情況下，個識別碼先至唔會生成、唔會傳出去。</p>
+<h2>1a. 廣告（Google AdMob）</h2>
+<p>本遊戲透過 <strong>Google AdMob</strong> 顯示廣告。廣告有兩種，兩種都寫出嚟——一個兒童導向嘅 app 唔應該只講好聽嗰種：</p>
+<ul>
+<li><strong>獎勵廣告（rewarded）—— 永遠自願。</strong> 你主動撳去睇，換返啲嘢（額外金幣、復活、寶石）。遊戲入面冇任何嘢係一定要睇廣告先玩到。</li>
+<li><strong>插頁廣告（interstitial）—— 你冇撳都會出嘅全屏廣告。</strong> 出喺兩鋪之間。出現規則刻意收得好緊：頭 3 鋪／頭 3 分鐘完全唔出、啱啱破紀錄嗰下唔出、最密 90 秒一次、大概每死 4 次先一次、<strong>一節最多 3 個、一日最多 4 個</strong>。最後兩個係硬天花：夠數之後，無論你再玩幾耐都唔會再出全屏廣告。一日嗰個計數係<strong>存喺你部機度，閂咗 app 甚至強制結束都仲喺度</strong>，所以重開遊戲唔會攞多一批全屏廣告。</li>
+</ul>
+<p>獎勵廣告有<strong>兩層</strong>日上限。第一層守住高頻嗰啲位：<strong>一日最多 12 個</strong>。夠數之後，全遊戲最高頻嗰個邀請（一鋪完結之後嗰個「睇廣告本局金幣 ×2」）當日唔會再出。其餘嗰啲——廣告復活、每日寶石、小豬錢罌——照出，因為嗰啲係你自己主動去攞嘅嘢，唔係打斷。第二層係絕對天花：<strong>一日最多 20 個</strong>，所有位加埋計，廣告復活同每日寶石、小豬錢罌都計埋；撞到之後全日邊個位都唔會再出獎勵廣告。使用條款第 6 節寫嘅係同一組數。</p>
+<p>獎勵廣告<strong>除咗日上限，仲有一節上限</strong>：「本局金幣 ×2」嗰個邀請一節出到 <strong>4 個</strong>就停，而<strong>一節 8 個</strong>係所有位加埋嘅絕對天花。凈計「一日幾多個」守唔到「一坐低嗰陣幾密」，而一個細路實際感受到嘅係後者。連插頁一齊計，一節最多見到 <strong>11 個</strong>全屏廣告。</p>
+<p>為咗提供廣告，AdMob 可能會收集及處理有限資料，例如裝置識別碼、粗略位置、廣告互動等。詳情請參閱 Google 私隱政策：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+<p><strong>你見到邊種廣告，取決於你答過幾多歲（第 2b 節）：</strong></p>
+<ul>
+<li><strong>未夠 13 歲</strong>，或者<strong>根本冇答過</strong>個年齡問題：AdMob 嘅兒童導向（child-directed）同未成年（under age of consent）兩個設定都會開，只會出<strong>非個人化廣告</strong>、唔會用廣告識別碼、亦唔會做安裝歸因。讀取你個答案時<strong>出咗任何問題</strong>，一樣行呢一支——安全嗰邊永遠係預設。</li>
+<li><strong>13 歲或以上</strong>：廣告可能係個人化嘅，亦可能會用到 Google 嘅廣告識別碼。 13 至 15 歲之間仍然會開住 under-age-of-consent，因為歐洲經濟區部分地方嘅資料處理同意年齡係 16 歲。</li>
+<li>無論行邊一支，本遊戲<strong>只會</strong>要求 <strong>G 級</strong>廣告內容；而 app manifest 入面 Google Analytics 嘅廣告個人化同廣告用途資料訊號，對<strong>所有</strong>用家一律關閉。</li>
+</ul>
+<h2>1b. 連線功能（即時對戰、每日挑戰）</h2>
+<p>以下三個時機，本遊戲會將呢啲資料傳送去我哋嘅配對伺服器：你用即時對戰嗰陣、你打開每日挑戰排行榜嗰陣，<strong>以及你每玩完一鋪每日挑戰嗰陣（自動，唔問你）</strong>：</p>
+<ul>
+<li>一個由遊戲<strong>隨機生成嘅裝置識別碼</strong>（唔係你部機嘅廣告 ID，亦唔連任何帳號），加一個證明佢屬於你嘅簽名；</li>
+<li>你嘅<strong>生成顯示名</strong>（例如「BraveCat42」——由遊戲喺固定字詞表抽出，你唔可以自己打字）；</li>
+<li>你<strong>揀咗嘅角色、拖尾同轉生等級</strong>（用嚟喺榜上顯示喺你個名旁邊）；</li>
+<li>你嘅<strong>成績</strong>（到達層數）同對戰分數。</li>
+</ul>
+<p>呢啲係配對同排名嘅最低所需。我哋會喺伺服器保存，令你嘅名次唔會每次重開就歸零。</p>
+<p><strong>每日挑戰嗰次上傳係自動嘅，照直講：</strong> 一鋪每日挑戰打完，你嘅成績、生成顯示名、揀咗嘅角色／拖尾／轉生等級就會傳上去，唔會先問你。<strong>觸發佢嘅唔係「打開排行榜」，係「打完一鋪」。</strong> 如果嗰陣冇網，呢條紀錄會<strong>存喺你部機一個小佇列度，等下次連得到伺服器再補交</strong>——即係喺飛機上面或者地鐵入面打嗰鋪唔會白費，但亦都唔係就此消失：佢係遲啲先傳。移除本遊戲就會連呢個佇列一齊清走。</p>
+<p><strong>保留幾耐。</strong> 伺服器保留嘅係<strong>最近七個「真係有人交過成績」嘅日子</strong>， <strong>唔係</strong>最近七個曆日。有日日有人玩嘅時候兩者幾乎一樣，但佢哋唔係同一個承諾：如果有一日完全冇人交成績，嗰日就唔會計入嗰七個，所以一條喺冷清日子交嘅紀錄，可以喺伺服器留耐過七個曆日。我哋寧願寫返伺服器實際行緊嗰條規則，都唔想將佢湊成一個靚啲嘅數字。天梯名次則會一直保留直到你唔再玩。</p>
+<p>我哋<strong>唔會</strong>儲存你嘅真實姓名、電郵、通訊錄、精確位置；除咗第 4 節講嗰個四個字嘅房間碼之外，亦唔會儲存任何你自由輸入嘅文字。</p>
+<p><strong>刪除紀錄。</strong> 每日排行榜紀錄要等到之後累積夠七個「有人交成績」嘅日子先會自動跌出榜，所以其中一個做法係唔再交——即係唔再玩每日挑戰（唔係淨係唔開嗰個排行榜畫面）——然後等。下面嗰個自助刪除掣快好多：佢會一次過刪走你嘅天梯紀錄<strong>同埋</strong> 你嘅每日排行榜紀錄。</p>
+<p>至於天梯（ladder）嗰條紀錄，以下係我哋做到同做唔到嘅嘢，唔加修飾：</p>
+<ul>
+<li><strong>有自助刪除掣</strong>，喺遊戲入面：<strong>對戰大堂 →「刪除我嘅排行榜紀錄」</strong>。撳落去要你確認一次，然後即刻刪，並且畀返一張收據。唔使電郵、唔使等。</li>
+<li>佢用你部機本來就有嗰個<strong>已簽名</strong>嘅識別碼認人，所以只刪得到<strong>你自己</strong>嗰行——就算你同第二個人啱啱好攞到同一個生成顯示名，都刪唔到人哋嗰行。</li>
+<li>如果伺服器連唔到，會照直話你知刪唔成，唔會扮咗做完。</li>
+<li><strong>移除本遊戲就會停止一切上傳，並且刪走部機上面嗰個識別碼。</strong> 之後嗰行就係一行死數：永遠唔會再更新，而且入面冇姓名、冇電郵、冇位置。</li>
+<li>如果你仍然要刪走嗰行，請電郵我哋（第 8 節），寫低你嘅生成顯示名同大約最後一次玩嘅時間。我哋會<strong>人手</strong>搵，認得出就喺 <strong>30 日內</strong>刪走；認唔出嘅話，我哋會照直同你講，唔會扮做咗。</li>
+</ul>
+<p>寧願咁樣寫低，都好過應承一個我哋未整過嘅刪除工具。</p>
+<p>如果你從來冇玩過每日挑戰、亦從來冇開過即時對戰，本遊戲唔會傳任何嘢去我哋嘅伺服器。</p>
+<h2>1c. IP 位址（伺服器紀錄）</h2>
+<p>每次本遊戲連去我哋嘅配對伺服器——照第 1b 節所講，呢個包括「打完一鋪每日挑戰」——條連線都會帶住你部機嘅 <strong>IP 位址</strong>，任何互聯網連線都係咁。我哋喺呢度講明佢，係因為喺歐盟，就算我哋從來冇將 IP 連住任何姓名，IP 位址一樣算係個人資料。</p>
+<ul>
+<li><strong>用嚟做乜。</strong> 只用於<strong>防濫用同速率限制</strong>：限制同一個位址可以同時開幾多條連線，以及限制同一個位址可以鑄造幾多個新玩家識別碼（一個短窗口上限，加一個滾動嘅 <strong>24 小時</strong>上限）。冇呢啲上限，一個腳本就可以令全部人都連唔到。</li>
+<li><strong>會出現喺邊。</strong> 啲計數器住喺伺服器記憶體，窗口過咗就會清走。另外，當一條連線因為以上限制而被拒絕，個位址會寫入我哋嘅<strong>伺服器紀錄（log）</strong>，等我哋分得出「真係故障」同「有人攻擊」。</li>
+<li><strong>唔會用嚟做乜。</strong> 唔會存入你嘅排行榜或者天梯紀錄、唔會傳去 AdMob 或者 Firebase、唔會攞嚟砌你嘅個人檔案、唔會攞嚟推算 IP 本身以外嘅位置，亦永遠唔會畀其他玩家睇到。</li>
+<li><strong>保留幾耐。</strong> 伺服器紀錄保留<strong>最多 30 日</strong>，之後刪走。記憶體入面嗰啲速率限制計數器喺 24 小時內、或者伺服器重啟嗰刻（邊個先到就邊個）就會消失。</li>
+</ul>
+<h2>2. 本機儲存</h2>
+<p>本遊戲會將以下資料儲存喺你部裝置本機（透過系統提供嘅本地儲存）。除咗第 1b 節講嘅嘢之外，其餘唔會離開你部機：</p>
+<ul>
+<li>你嘅最高分、排行榜紀錄；</li>
+<li>已解鎖成就同累積統計（金幣數、局數等）；</li>
+<li>你嘅設定（角色、控制方式、音效、震動）；</li>
+<li>「邊啲內購已經派咗貨」嘅紀錄（見第 5 節）。</li>
+</ul>
+<p><strong>移除本遊戲即會刪除部機上面以上所有資料。</strong> 不過喺 Android 上面，本遊戲有開啟系統嘅自動備份，所以同一份資料（進度、設定、已派貨紀錄）可能亦存在於<strong>你自己個 Google Drive 備份</strong>入面，重裝或者換新機時會還原返。呢個係刻意保留嘅：寶石包呢類消耗型內購 store 係 restore 唔返嘅，冇咗備份即係重裝一次就靜靜雞冇咗你畀過錢買嘅嘢。個備份屬於你個 Google 帳戶，唔屬於我哋——我哋讀唔到。想刪走佢，可以喺 Google 帳戶嘅備份設定入面刪除本遊戲嘅備份，或者喺解除安裝之前先關閉本 app 嘅備份。</p>
+<h2>2a. 提醒（本機通知）</h2>
+<p>本遊戲可以提醒你有咩等緊（例如聽日嘅登入獎勵有幾多）。</p>
+<ul>
+<li><strong>佢係本機通知，唔係推送。</strong> 由 app 喺你部機自己排。冇推送 token、冇通知伺服器，而且<strong>提醒嘅內容——寫住乜、幾點響——永遠唔會離開你部機。</strong></li>
+<li><strong>但「你有冇用提醒」呢件事係會計數嘅。</strong> 唔講漂亮說話，講實情：本遊戲會將一個名叫 <code>notify</code> 嘅匿名使用統計事件送去 Firebase Analytics（第 6 節），入面得一個欄位 <code>action</code>，值係 <code>enabled</code>、<code>disabled</code>、<code>permission_granted</code>、 <code>permission_denied</code>、<code>scheduled</code> 其中一個。用人話講即係：我哋見到你<strong>有</strong>開／關提醒、系統嗰個權限視窗<strong>有冇</strong>畀、以及<strong>有</strong>排過一個提醒——就係咁多。冇提醒內文、冇提醒時間、除咗每個 Firebase Analytics 事件本來就帶嘅 app 實例識別碼之外冇任何身份資料。我哋用佢嚟分開「冇人想要提醒」同「個權限視窗被人拒絕咗」。</li>
+<li><strong>一個曆日最多一個，一輪最多三個。</strong> 你每次開嚟玩，app 就會重新排一輪，最多三個，唔會再多：
+<ol>
+<li><strong>聽日</strong> —— 下一個每日獎勵係咩；</li>
+<li><strong>連續紀錄斷之前</strong> —— 只有喺你真係有一條就快斷嘅連續紀錄嗰陣先排；</li>
+<li><strong>一星期之後</strong> —— 一個「返嚟玩」提醒。</li>
+</ol>
+兩個撞埋同一日就淨係留早嗰個。</li>
+<li><strong>之後就永遠靜。</strong> 排下一輪嘅<strong>唯一</strong>方法係你再開個 app。你唔返嚟，就最多收到嗰三個，之後<strong>永遠再冇</strong>——冇第四浪、冇伺服器推送、冇重複鬧鐘。</li>
+</ul>
+<p>⚠️ 舊版本呢一節寫住你「只會收到一個」提醒、「冇第二浪、第三浪」。嗰個係錯嘅：app 由頭到尾都係最多排三個。上面嗰段先係佢實際做嘅嘢。</p>
+<ul>
+<li><strong>永遠唔會賣嘢。</strong> 提醒只會講你已經賺咗、或者免費領得到嘅嘢，唔會提寶石、禮包、價錢、優惠或者任何買得到嘅嘢。</li>
+<li><strong>夜晚唔會嘈。</strong> 提醒夾硬限喺日頭（本地時間晚上 8 點至朝早 9 點之間唔會出）。</li>
+<li><strong>冇大人開過，就唔會有提醒。</strong> 全新安裝<strong>預設係熄嘅</strong>。遊戲會喺你領咗每日獎勵之後、喺遊戲入面問你一次（唔會喺第一次開 app 就問），你答「要」之前唔會排任何提醒。</li>
+</ul>
+<p>⚠️ 舊版本嘅遊戲係預設開，靠作業系統嗰個權限框做 opt-in。但嗰個框只有 Android 13+ 同 iOS 先有——<strong>Android 12 或以下根本冇 runtime permission，即係冇人同意過</strong>。而家改咗：遊戲入面嗰條問題喺所有平台都會問，而且只有佢先開得到提醒。</p>
+<ul>
+<li><strong>你隨時關得返</strong>：遊戲設定入面嗰個通知圖示，或者用你部機自己嘅通知設定。</li>
+</ul>
+<h2>2b. 年齡問題</h2>
+<p>你第一次開本遊戲嗰陣，佢會問<strong>一條</strong>問題：你邊年出世。成個年齡閘就係咁多。</p>
+<ul>
+<li><strong>只問年份，唔會問完整出生日期。</strong> 完整出生日期係一件比我哋需要嘅更強嘅個人資料；我哋真正需要知嘅淨係「應該用邊套廣告規則」。</li>
+<li><strong>個答案留喺你部機。</strong> 佢係本機儲存入面一個數字。唔會傳去我哋、唔會傳去 AdMob、亦唔會貼喺你嘅排行榜紀錄上面。</li>
+<li><strong>問法係中立嘅。</strong> 唔會預先揀好一個年份，亦唔會話你聽答邊個會點——因為一個會暗示「邊個答案著數」嘅畫面，就係一個教細路呃佢嘅畫面。</li>
+<li><strong>你唔答，或者個答案讀唔返，本遊戲一律當你係細路</strong>，行返嚴格嗰套廣告設定（第 1a 節）。安全嗰邊永遠係預設。</li>
+<li><strong>幾時先會問。</strong> 唔係一開 app 就問，係喺「個答案即刻有後果」嗰一刻先問：第一次用真錢、第一次開家長閘、第一次真係要播全屏廣告、同埋第一次準備出商店嗰張評分卡。淨係玩唔會問。</li>
+<li><strong>撳「我唔知」嘅話，3 日之後會再問一次（只係一次）。</strong> 答咗出生年份嘅永遠唔會再問 —— 再問一個已經答過嘅人，就係「問到你改口為止」。只有「我唔知」嗰條路會返嚟，而且要隔 3 日。中間嗰段時間你全程留喺嚴格嘅兒童導向嗰邊，而重問嗰個係同一個中立畫面、同一條成人驗證。</li>
+<li>因為本遊戲會問，所以佢係一個<strong>混合受眾</strong>（mixed audience）app，唔再係「全部人一律當兒童」。細路行兒童導向，成年人唔行。玩法、價錢、解鎖到啲乜，<strong>唔會</strong>因為你點答而有任何分別。</li>
+</ul>
+<h2>3. 裝置權限</h2>
+<ul>
+<li><strong>動作感應器（加速度計）</strong>：僅用於「傾斜控制」玩法，於裝置本機即時處理，唔會被記錄或上傳。</li>
+<li><strong>通知（Android 13+ 嘅 <code>POST_NOTIFICATIONS</code>）</strong>：僅用於第 2a 節講嗰啲提醒（一日最多一個、一輪最多三個）。唔畀權限唔會影響遊戲任何內容。</li>
+<li>本遊戲<strong>唔會</strong>要求相機、麥克風、通訊錄、位置、儲存空間等權限。</li>
+</ul>
+<h2>4. 兒童私隱</h2>
+<p>本遊戲適合所有年齡，係一個<strong>混合受眾</strong>（mixed audience）app：佢會問一次中立嘅年齡問題 —— 撳「我唔知」嘅話 3 日後多問一次 ——（第 2b 節），然後對每一位未夠 13 歲嘅用家——<strong>以及每一位冇答過、或者個答案讀唔返嘅用家</strong>——一律行返嚴格嘅兒童導向廣告規則。</p>
+<p>對呢班用家：AdMob 已設定為兒童導向（child-directed）同未成年（under age of consent），只會顯示<strong>非個人化廣告</strong>、唔會用廣告識別碼、亦唔會做安裝歸因，符合 COPPA / GDPR-K 對兒童資料嘅要求。而 Firebase Analytics 嘅廣告個人化同廣告用途資料訊號，喺 app manifest 入面對<strong>所有</strong>用家（包括成年人）一律關閉。</p>
+<p>除咗第 1 節同第 1b 節講嗰個裝置識別碼、第 1c 節講嗰個 IP 位址、以及第 2b 節講嗰個數字之外，我哋（開發者）唔會收集任何個人資料。本遊戲冇帳號、冇姓名／電郵欄位。</p>
+<p><strong>遊戲入面打得字嘅地方——完整清單。</strong> 全遊戲得<strong>兩個</strong>地方打得字，兩個都收唔到姓名、電郵或者自由留言：</p>
+<ol>
+<li><strong>房間碼輸入框</strong>（即時對戰大堂）。佢收一個<strong>四個字嘅房間碼</strong>，用嚟入朋友間房，而呢個碼<strong>會傳去我哋嘅配對伺服器</strong>——佢本身就係為咗咁而存在。佢係一間房嘅代號，唔係關於你嘅文字。</li>
+<li><strong>家長閘答案框</strong>（真錢購買之前嗰條數學題，第 5 節）。你打嘅嘢<strong>淨係喺你部機</strong> 同正確答案比對，你打過嗰個數字唔會傳去任何地方。Firebase Analytics 會記低一次家長閘<strong>有冇過</strong>同試咗幾多次（第 6 節），但<strong>唔會</strong>記你打咗咩數字。</li>
+</ol>
+<p>⚠️ 舊版本呢一節寫住本遊戲「冇任何自由輸入文字嘅地方」。嗰句表面上就已經係錯——上面兩個框一直都存在——而家已經改正。</p>
+<p>⚠️ 舊版本呢一節寫住「我哋（開發者）唔會收集任何個人資料」，而第 1 節同時描述緊傳送一個持久裝置識別碼——嗰個係自相矛盾，上面已經改正。舊版本亦寫住「冇年齡閘、亦唔會問你幾多歲」——嗰句而家唔再成立，見第 2b 節。</p>
+<p>真錢購買嘅完整清單見第 5 節，全部都要過家長閘。</p>
+<h2>5. 內購</h2>
+<p>本遊戲有可選嘅真錢內購。<strong>因為可能有小朋友玩，以下係完整清單</strong> —— 除此以外冇其他付費項目、亦冇真錢隨機扭蛋。<strong>其中一項係自動續期訂閱，已經喺表入面標明</strong>；其餘全部係一次性購買。</p>
+<table>
+<thead><tr>
+<th>項目</th>
+<th>美金價</th>
+<th>類型</th>
+<th>買咗攞到</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>打爆小豬錢罌</td>
+<td>$0.99</td>
+<td>消耗</td>
+<td>錢罌入面儲落嘅金幣</td>
+</tr>
+<tr>
+<td>一小袋寶石</td>
+<td>$2.99</td>
+<td>消耗</td>
+<td>400 寶石</td>
+</tr>
+<tr>
+<td>新手禮包</td>
+<td>$2.99</td>
+<td>一次性</td>
+<td>500 寶石（<strong>唔會</strong>移除廣告）</td>
+</tr>
+<tr>
+<td>挑戰卡付費軌</td>
+<td>$2.99</td>
+<td>30 日</td>
+<td>30 日付費軌獎勵，另加一件付費軌限定外觀（Lv.30「天使光環」帽）</td>
+</tr>
+<tr>
+<td>安靜模式</td>
+<td>$3.99</td>
+<td>一次性</td>
+<td>永久熄咗全屏插頁廣告。獎勵廣告同佢哋嘅福利<strong>照留</strong></td>
+</tr>
+<tr>
+<td>永久雙倍金幣</td>
+<td>$4.99</td>
+<td>一次性</td>
+<td>之後每一鋪金幣 ×2，永久</td>
+</tr>
+<tr>
+<td>同伴俱樂部</td>
+<td>$4.99／月</td>
+<td><strong>自動續期訂閱</strong></td>
+<td>月票付費軌、冇插頁廣告、每日睇廣告嗰份寶石 30💎→60💎（其他寶石來源不變）、每日登入金幣×1.5、每日送一次開局強化</td>
+</tr>
+<tr>
+<td>一大袋寶石</td>
+<td>$9.99</td>
+<td>消耗</td>
+<td>1500 寶石</td>
+</tr>
+<tr>
+<td>一大箱寶石</td>
+<td>$19.99</td>
+<td>消耗</td>
+<td>3400 寶石</td>
+</tr>
+<tr>
+<td>寶石金庫</td>
+<td>$49.99</td>
+<td>消耗</td>
+<td>9500 寶石</td>
+</tr>
+</tbody></table>
+<p><strong>首次購買雙倍。</strong> 第一次買<strong>一小袋寶石</strong>或者<strong>一大袋寶石</strong>（只限呢兩款，各限一次）會收到上表<strong>雙倍</strong>嘅寶石（即 800 同 3000）。兩款較大嘅寶石包永遠唔會雙倍。呢樣寫喺呢度而唔係淨係寫喺商店，係因為實際派嘅份量同產品名寫嘅份量唔同。</p>
+<p>畀家長嘅說明：</p>
+<ul>
+<li><strong>唔使畀錢都玩到晒。</strong> 寶石可以免費賺（每日一個獎勵廣告、小豬錢罌、挑戰卡免費軌）。挑戰卡付費軌亦可以用 <strong>500 遊戲寶石</strong> 換，唔一定要真錢。</li>
+<li><strong>一個例外，照直講：</strong>《永久雙倍金幣》<strong>冇免費或者遊戲貨幣路</strong>，係唯一一件冇替代途徑嘅付費項目。佢係「金幣儲得快啲」嘅加成，唔係一道閘——遊戲入面冇任何內容鎖喺佢後面。</li>
+<li><strong>《安靜模式》唔係「移除廣告」，我哋亦唔會咁描述佢。</strong> 佢熄嘅係你冇撳都會彈出嚟嘅全屏廣告。佢<strong>刻意保留</strong>全部獎勵廣告同佢哋派嘅嘢——廣告復活、每日寶石、小豬錢罌加倍。以前有件「熄晒所有廣告」嘅商品，正正就係因為咁而停售：佢靜靜雞攞走咗啲免費寶石水喉，搞到畀咗錢嗰批人反而攞得比唔畀錢嗰批少。</li>
+<li><strong>外觀唔會賣機會率。</strong> 調色色片、角色外觀同拖尾特效全部係明碼實價逐件買，畀錢之前你一定知自己攞到咩。</li>
+<li><strong>深層世界紀念色買唔到快。</strong> 每一隻都要你真係跌到落嗰個深度先賣，錢慳唔到你嗰段路。</li>
+<li><strong>訂閱嗰件事，照直講。</strong>《同伴俱樂部》係唯一一件會自己再扣錢嘅商品：<strong>每月 $4.99，直到你取消為止</strong>，會自動續期。<strong>取消要喺商店做，唔係喺遊戲入面</strong>——Google Play →「付款同訂閱」，或者 iOS 設定 → 你個名 →「訂閱項目」。取消之後唔會再扣錢，而已經畀咗嗰個月嘅福利會用到期滿。遊戲入面冇任何內容鎖喺佢後面：佢包住嘅月票付費軌，一樣可以 $2.99 買一次，或者用 500 遊戲寶石換；而「冇廣告」嗰部分只係唔再出你冇撳都彈出嚟嘅全屏廣告。30 日挑戰卡<strong>唔係</strong>訂閱，過咗期就完，唔會自己再扣錢。</li>
+<li><strong>真錢唔賣隨機。</strong> 扭蛋只用遊戲金幣。</li>
+<li>任何真錢購買之前都會有 <strong>家長閘</strong>（一條數學題）。</li>
+<li><strong>用真錢買返嚟嘅寶石，一樣有閘。</strong> 寶石本身有免費水喉（每日一條獎勵廣告、週挑戰、活動），所以用寶石買嘢一般唔會問大人——把免費經濟鎖喺一條乘數題後面只會更差，唔會更安全。但一旦真錢變咗寶石，遊戲會記住手上啲寶石入面有幾多係買返嚟嘅，而且消費時<strong>永遠免費嗰批先出</strong>。一單消費如果會用到 <strong>超過 250 粒真錢寶石</strong>，就會出家長閘。大人亦可以喺設定開 <strong>「寶石消費要大人」</strong>，開咗之後每一單寶石消費都要過閘；呢個開關本身都要過家長閘先改得。</li>
+<li><strong>賣咩畀你，睇你答過幾多歲</strong>（第 2b 節）。如果申報年齡未夠 13 歲，或者根本冇答過，商店會收起所有 <strong>US$9.99 以上</strong>嘅商品，同埋完全收起自動續期訂閱——訂閱嘅問題唔喺價錢，喺續期嗰陣冇人再確認過你。每一條內容路都仲買得到：寶石、季票、錢罌、雙倍金幣、安靜模式全部喺上限之下。呢個閘守喺真正落單嗰一步，唔係淨係喺商店畫面隱藏。</li>
+<li>交易由 Apple App Store / Google Play 處理，我哋唔會收到或儲存你嘅付款資料（如信用卡號碼）。想封鎖購買，請用裝置本身嘅家長控制（「先詢問後購買」／「需要驗證」）。</li>
+<li>我哋會喺你部機記低「邊啲項目已經派咗貨」，避免同一單派兩次。呢個紀錄唔含任何個人資料。</li>
+</ul>
+<h2>6. 第三方</h2>
+<ul>
+<li><strong>Google AdMob</strong>（廣告）— 見第 1a 節。</li>
+<li><strong>Google Firebase Analytics</strong>（使用量分析）— 收集一個 app 實例識別碼，加上遊玩同交易事件。講清楚啲，包括：一鋪去到幾深、點死；有冇睇獎勵廣告／攞唔攞到廣告；金幣同寶石賺咗幾多、使咗幾多；<strong>買咗邊件內購、實際價錢同貨幣</strong>；<strong>AdMob 就個別一次廣告曝光報返嘅廣告收益</strong>；<strong>每件商品嘅家長閘有冇過</strong>；以及<strong>每日提醒有冇開／關、通知權限有冇畀、有冇排過一個提醒</strong> （第 2a 節）。全部綁住嗰個 app 實例識別碼，唔綁姓名、電郵或者帳號。廣告個人化同廣告用途資料訊號，喺 manifest 對所有用家一律關閉。</li>
+<li><strong>Android <code>AD_ID</code> 權限而家有聲明</strong>（以前係移除咗嘅）。呢個係「混合受眾」嘅必然結果：成年用家可能會收到個人化廣告同安裝歸因。 <strong>對行緊兒童導向嗰支嘅用家佢永遠唔會被使用</strong>——我哋會叫 AdMob SDK 唔好收集或者傳送佢（第 1a 節），而「冇答過年齡問題」嘅人一律算喺呢一支。</li>
+<li>其餘以開源軟件（Flutter、Flame 等）建構，唔整合其他會收集資料嘅第三方服務。</li>
+</ul>
+<h2>7. 政策更新</h2>
+<p>若日後版本新增任何會影響私隱嘅功能，我哋會更新本政策並喺遊戲內或商店頁面告知。</p>
+<h2>8. 聯絡我哋</h2>
+<p>如有疑問，請電郵：<a href="mailto:tzehin86@gmail.com">tzehin86@gmail.com</a></p>
+<footer>最後更新：2026 年 8 月 22 日</footer>
+</div>
+</body>
+</html>
