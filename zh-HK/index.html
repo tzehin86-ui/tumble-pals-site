@@ -169,6 +169,14 @@ footer {
 <li><strong>唔會用嚟做乜。</strong> 唔會存入你嘅排行榜或者天梯紀錄、唔會傳去 AdMob 或者 Firebase、唔會攞嚟砌你嘅個人檔案、唔會攞嚟推算 IP 本身以外嘅位置，亦永遠唔會畀其他玩家睇到。</li>
 <li><strong>保留幾耐。</strong> 伺服器紀錄保留<strong>最多 30 日</strong>，之後刪走。記憶體入面嗰啲速率限制計數器喺 24 小時內、或者伺服器重啟嗰刻（邊個先到就邊個）就會消失。</li>
 </ul>
+<h2>1d. 當機與效能資料（Google Firebase Crashlytics）</h2>
+<p>如果本遊戲當機或者出現意料之外嘅錯誤，佢會送一份<strong>當機報告</strong>去 <strong>Google Firebase Crashlytics</strong>，等我哋揾到個 bug 同修好佢。呢件事係自動發生嘅，唔需要你用任何連線功能。</p>
+<ul>
+<li><strong>當機報告有咩。</strong> 當機嗰刻嘅堆疊追蹤（即係本遊戲邊部分 code 出錯）、你部機嘅型號同作業系統版本、本遊戲嘅版本，同埋當機時間。Crashlytics 亦會附上佢自己一個隨機嘅安裝識別碼，等同一部機重複當機可以當一單計。</li>
+<li><strong>冇咩。</strong> 冇姓名、電郵、電話、帳號或者位置，亦冇你打過嘅任何文字。佢唔會連住你嘅排行榜識別碼（第 1b 節），亦唔會用嚟賣廣告或者追蹤。</li>
+<li><strong>用嚟做乜。</strong> 只用嚟揾出同修好 bug 同當機。</li>
+<li><strong>保留幾耐。</strong> 當機報告跟 Firebase 預設保留 <strong>90 日</strong>，之後刪走。 Firebase 嘅私隱資料見：<a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+</ul>
 <h2>2. 本機儲存</h2>
 <p>本遊戲會將以下資料儲存喺你部裝置本機（透過系統提供嘅本地儲存）。除咗第 1b 節講嘅嘢之外，其餘唔會離開你部機：</p>
 <ul>

@@ -169,6 +169,14 @@ footer {
 <li><strong>What we do not do with it.</strong> It is not stored in your leaderboard or ladder record, not sent to AdMob or Firebase, not used to build a profile of you, not used to derive your location beyond what an IP inherently implies, and never shown to other players.</li>
 <li><strong>How long.</strong> Server logs are kept for <strong>no more than 30 days</strong> and are then discarded. The in-memory rate-limit counters are gone within 24 hours or when the server restarts, whichever is sooner.</li>
 </ul>
+<h2>1d. Crash and performance data (Google Firebase Crashlytics)</h2>
+<p>If the Game crashes or hits an unexpected error, it sends a <strong>crash report</strong> to <strong>Google Firebase Crashlytics</strong> so that we can find and fix the bug. This happens automatically; you do not need to use any online feature for it.</p>
+<ul>
+<li><strong>What a crash report contains.</strong> The crash stack trace (which part of the Game's code failed), your device model and operating-system version, the Game's version, and the time of the crash. Crashlytics also attaches a random installation identifier of its own so that repeated crashes on the same device can be counted once.</li>
+<li><strong>What it does not contain.</strong> No name, email, phone number, account or location, and no text you typed. It is not linked to your leaderboard identifier (section 1b) and is not used for advertising or tracking.</li>
+<li><strong>What we use it for.</strong> Only for finding and fixing bugs and crashes.</li>
+<li><strong>How long.</strong> Crash reports are kept under Firebase's default retention of <strong>90 days</strong> and then removed. See Firebase's privacy information: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+</ul>
 <h2>2. Local Storage</h2>
 <p>The Game stores the following on your device (via the operating system's local storage). Except for what section 1b describes, it stays on your device:</p>
 <ul>
