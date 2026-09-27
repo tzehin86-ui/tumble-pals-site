@@ -103,11 +103,13 @@ footer {
 <div class="wrap">
 <nav class="langbar">
 <span class="current">English</span>
+<span>|</span>
+<a href="../zh-HK/terms/index.html">繁體中文</a>
+<span>|</span>
+<a href="../index.html">Privacy Policy</a>
 </nav>
 <h1>Terms of Use — Tumble Pals (跳跳小動物)</h1>
 <p>Last updated: August 20, 2026</p>
-<p>&gt; <strong>Why this document exists.</strong> Tumble Pals sells one auto-renewing subscription &gt; (<em>Pals Club</em>, US$4.99/month). Apple's App Store Review Guideline <strong>3.1.2(a)</strong> &gt; requires that an auto-renewing subscription's purchase point shows the title, &gt; length and price of the subscription, what it includes, and links to a &gt; <strong>functional Terms of Use (EULA)</strong> and a privacy policy — and the same links &gt; must appear on the App Store product page. Google Play's subscription policy &gt; asks for equivalent disclosure. Shipping a subscription without a Terms of Use &gt; is a straight rejection, not a deduction. &gt; &gt; If you would rather not write your own EULA, Apple's &gt; [standard EULA](<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>) &gt; is also acceptable — but then it, not this file, is the document you must link. &gt; Pick one and link the same one everywhere.</p>
-<p>---</p>
 <h2>1. Who these terms are between</h2>
 <p>These terms are an agreement between you and the developer of Tumble Pals (contact: <a href="mailto:tzehin86@gmail.com">tzehin86@gmail.com</a> — "we", "us"). They cover the Tumble Pals game app on Google Play and the Apple App Store (the "Game").</p>
 <p>By installing or playing the Game you accept these terms. If you do not accept them, do not install the Game, or uninstall it.</p>
@@ -197,14 +199,6 @@ footer {
 <p>You can end this agreement at any time by uninstalling the Game. We may suspend access to the online features (Live Battle, leaderboards) if we reasonably believe they are being tampered with.</p>
 <p><strong>Governing law:</strong> the laws of the Hong Kong Special Administrative Region, without prejudice to any mandatory consumer-protection law of your country of residence.</p>
 <p><strong>Contact:</strong> <a href="mailto:tzehin86@gmail.com">tzehin86@gmail.com</a></p>
-<p>---</p>
-<h3>Where this document has to be linked (checklist for the owner)</h3>
-<ul>
-<li>[ ] Published at a <strong>public URL</strong> (same place as the privacy policy).</li>
-<li>[ ] <strong>App Store Connect</strong> → App Information → <em>License Agreement</em> (or paste the URL in the app's description) — required by Guideline 3.1.2(a).</li>
-<li>[ ] <strong>Google Play Console</strong> → the subscription's description / your store listing.</li>
-<li>[ ] <strong>Inside the Game, on the subscription purchase card</strong> — the Pals Club card needs, in one place: title, length, price, what it includes, a Terms of Use link, and a privacy policy link. ⚠️ <strong>This one is still missing.</strong> <code>lib/ui/overlays.dart</code> renders the card and a whole-repo search for <code>terms of use</code> / <code>EULA</code> / <code>使用條款</code> returned nothing. See <code>LAUNCH_RUNBOOK.md</code> §9.</li>
-</ul>
 <footer>Last updated: August 20, 2026</footer>
 </div>
 </body>
