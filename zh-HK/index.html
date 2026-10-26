@@ -171,7 +171,7 @@ Crashlytics 依各自政策處理 SDK 資料；遊戲內刪除排行榜唔會刪
 守唔到「一坐低嗰陣幾密」，而一個細路實際感受到嘅係後者。連插頁一齊計，
 一節最多見到 <strong>11 個</strong>全屏廣告。</p>
 <p>為咗提供廣告，AdMob 可能會收集及處理有限資料，例如裝置識別碼、粗略位置、廣告互動等。詳情請參閱 Google 私隱政策：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
-<p><strong>Android 嘅廣告取決於你答過幾多歲（第 2b 節）；iOS 對所有年齡都只要求非個人化廣告：</strong></p>
+<p><strong>Android 嘅廣告取決於你答過幾多歲（第 2b 節）；iOS 如有廣告，都只要求非個人化廣告：</strong></p>
 <ul>
 <li><strong>未夠 13 歲</strong>，或者<strong>根本冇答過</strong>個年齡問題：AdMob 嘅兒童導向
 （child-directed）同未成年（under age of consent）兩個設定都會開，
@@ -180,12 +180,17 @@ Crashlytics 依各自政策處理 SDK 資料；遊戲內刪除排行榜唔會刪
 <li><strong>Android 嘅 13 歲或以上用家</strong>：廣告可能係個人化嘅，亦可能會用到 Google 嘅廣告識別碼。
 13 至 15 歲之間仍然會開住 under-age-of-consent，因為歐洲經濟區部分地方
 嘅資料處理同意年齡係 16 歲。</li>
-<li><strong>iOS 所有年齡</strong>：廣告請求都係非個人化；本遊戲唔要求 Apple 廣告識別碼，
-並停用 Google Mobile Ads 嘅 publisher first-party ID 同個人化設定。
-SDK 仍可能為送廣告、限制頻率、防欺詐同報表處理有限資料。佢嘅 iOS
-私隱聲明將裝置識別碼標示為可能用於追蹤；非個人化廣告仍可能使用裝置
-識別碼控制展示頻率及製作匯總報表。我哋會喺上架前於 App Store 私隱資料申報
-呢項 SDK 潛在追蹤用途；「非個人化」唔等於「完全冇追蹤」。</li>
+<li><strong>iOS 冇答年齡，或申報年齡最多 18 歲</strong>：包括青少年在內，
+一律採用 Google 較嚴格嘅兒童廣告處理設定，停用個人化、再行銷、第三方
+廣告商請求同 IDFA 傳送，即使呢部機之前曾批准成人追蹤亦一樣。呢班玩家
+只會出非個人化廣告，遊戲唔會向佢哋要求 Apple 追蹤授權。</li>
+<li><strong>iOS 申報 19 歲或以上</strong>：廣告 SDK 啟動前會先要求 Apple 嘅
+App Tracking Transparency（ATT）授權。只有授權咗先會出廣告；拒絕、
+受限制或出錯，都唔會出成年人廣告。即使授權，廣告仍係非個人化，但
+AdMob 可能用廣告識別碼量度廣告成效。Google Mobile Ads 嘅 publisher
+first-party ID 同個人化設定保持停用。SDK 仍可能為送廣告、限制頻率、
+防欺詐同報表處理有限資料；我哋會喺 App Store 私隱資料申報潛在嘅
+SDK 追蹤用途。同一節使用期間如果年齡組別改變，廣告會停用至下次啟動。</li>
 <li>無論行邊一支，本遊戲<strong>只會</strong>要求 <strong>G 級</strong>廣告內容；而 app manifest 入面
 Google Analytics 嘅廣告個人化同廣告用途資料訊號，對<strong>所有</strong>用家一律關閉。</li>
 </ul>

@@ -203,7 +203,7 @@ limits, one sitting can show at most <strong>11 full-screen ads</strong>.</p>
 identifiers, coarse location, and ad interactions. See Google&#39;s Privacy Policy:
 <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
 <p><strong>On Android, which ads you see depends on the age you told us (section 2b).
-On iOS, ads are non-personalized for every age group:</strong></p>
+On iOS, any ads served are non-personalized:</strong></p>
 <ul>
 <li><strong>If you are under 13</strong>, or if you have not answered the age question at all,
 AdMob&#39;s child-directed <strong>and</strong> under-age-of-consent settings are enabled: only
@@ -214,14 +214,19 @@ all goes wrong reading your answer — the safe branch is the default.</li>
 advertising identifier may be used. Between 13 and 15 the under-age-of-consent
 setting stays on, because in parts of the EEA the age of consent for data
 processing is 16.</li>
-<li><strong>On iOS, regardless of age</strong>, ad requests are non-personalized. The Game does
-not request Apple&#39;s advertising identifier and disables Google Mobile Ads&#39;
-publisher first-party ID and personalization setting. The SDK may still process
-limited data for ad delivery, frequency limits, fraud prevention, and reporting.
-Its iOS privacy manifest marks device IDs as potentially used for tracking.
-Non-personalized ads may still use device identifiers for frequency capping
-and aggregated reporting. We will disclose that potential SDK tracking in the
-App Store privacy information before release; non-personalized does not mean no tracking.</li>
+<li><strong>On iOS, no answer or a declared age up to 18</strong> receives Google&#39;s
+stricter child ad treatment, including teenagers. This disables personalization,
+remarketing, third-party ad vendor requests and IDFA transmission, even if the
+installation previously had adult tracking permission. These users receive
+non-personalized ads without an Apple tracking permission request.</li>
+<li><strong>On iOS, declared ages 19 and over</strong> are asked for Apple&#39;s App
+Tracking Transparency permission before the ad SDK starts. Ads are unavailable
+unless permission is authorized. Adult ads remain non-personalized, but AdMob
+may access the advertising identifier for measurement. Publisher first-party ID
+and ad personalization remain disabled. The SDK may still process limited data
+for delivery, frequency limits, fraud prevention, and reporting. We will
+disclose potential SDK tracking in App Store privacy details. If the age group
+changes during a session, ads stop until the next launch.</li>
 <li>Either way the Game only ever requests <strong>G-rated</strong> ad content, and Google
 Analytics ad-personalization and ad-user-data signals stay switched off in the
 app manifest for <strong>all</strong> users.</li>
